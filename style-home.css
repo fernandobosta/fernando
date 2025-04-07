@@ -1,0 +1,15 @@
+main {
+    background-color: darkgray;
+}
+body {
+    background-color: rgb(88, 88, 88);
+}
+.centralizar{
+    text-align: center;
+    background-color: rgb(22, 21, 21);
+}
+.título{
+    text-align: center;
+    background-color: dimgray;
+    color:snow
+}
