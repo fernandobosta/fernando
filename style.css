@@ -3,82 +3,92 @@ header{
     color:snow
 }
 
-body{
-    background-color: rgb(86, 86, 86);
+body {
+background-color: rgb(86, 86, 86) ;
 }
 
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
+nav {
+position: relative;
+top: 75px;
+right: 0;
 }
 
-nav a{
-    text-transform: uppercase;
-    color: snow;
-    font-weight: bold;
-    font-size: 25px;
-    text-decoration: none;
+nav a {
+text-transform: uppercase;
+color: blue;
+font-weight: bold;
+text-decoration: none;
+font-size: 22px;
 }
 
 nav a:hover {
-    color:rgb(213, 183, 146);
-    text-decoration: underline;
+color: red;
+text-decoration: underline;
 }
 
-img{
-    width: 170px ;
-    height: 170px ;
-    border-radius: 1 ;
+nav a:active {
+    color: rgb(240, 160, 160)
+}
+
+nav li {
+display: inline;
+margin-inline: 0 0 0 15px;
+}
+
+img {
+width: 170px;
+height: 170px;
+border-radius: 30%;
 }
 
 .produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+width: 940px;
+margin: 0 auto;
+padding: 50px 0;
 }
 
 .produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5;
-    padding: 30px 0;
-    box-sizing: border-box;
-    border: 2px solid black;
+display: inline-block;
+text-align: center;
+width: 30%;
+vertical-align: top;
+margin: 0 1.5;
+padding: 30px 0;
+box-sizing: border-box;
+border: 2px solid black;
+border-radius: 10px;
 }
 
 .produtos li:hover {
-    border-color: rgb(255, 0, 0);
+border-color: orange;
 }
 
 .produtos li:active {
-    border-color: blueviolet;
+color: rgb(255, 0, 0);
 }
 
 .produtos li:hover h2 {
-    font-size: 35px;
-    color: red;
-}
+font-size: 34px;
 
+
+}
 .produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
+font-size: 30px;
+font-weight: bold;
 }
 
-.produtos-descricao {
-    font-size: 18px;
+.produto-descricao {
+font-size: 18px;
 }
 
-.produtos-preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
+.produto-preco {
+font-size: 22px;
+font-weight: bold;
+margin-top: 10px;
 }
 
 footer {
     text-align: center;
-
     padding: 40px 0;
 }
 
@@ -87,7 +97,92 @@ footer img {
 }
 
 .copyright {
-    color: black;
     font-size: 13px;
     margin: 20px 0 0;
+    color: black;
+}
+
+.copyright2 {
+    margin: 20px 0 0;
+}
+
+main {
+    width: 940px;
+    margin: auto;
+}
+
+form {
+    margin: 150px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 9px;
+
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 15px 0;
+}
+
+.Enviar {
+    width: 400px;
+    padding: 15px 0;
+    background-color: antiquewhite;
+    color: burlywood;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.Enviar:hover {
+    background-color: chocolate;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 30px;
+}
+
+thead {
+    background: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+.localizacao {
+    padding: 3em 0;
+    text-align: center;
+}
+.localizacao p {
+    margin: 0 0 2em;
+}
+.video {
+    width: 560px;
+    margin: 1em auto;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: medium;
+    text-align: center;
+}
+
+.centralizar {
+    padding: 80px 560px;
 }
